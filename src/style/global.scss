@@ -1,0 +1,18 @@
+@import 'reset-css';
+@import './font.scss';
+@import './variables.scss';
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#app,
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+}

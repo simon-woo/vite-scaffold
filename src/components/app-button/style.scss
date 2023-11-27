@@ -1,0 +1,15 @@
+.app-button {
+  .van-button {
+    height: 48px;
+    font-size: 18px;
+    background-color: #6A42CC;
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
+    --van-button-disabled-opacity: 1;
+
+    &.van-button--disabled {
+      background: #D9D9D9;
+    }
+  }
+}
